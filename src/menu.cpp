@@ -1,4 +1,4 @@
-#include "menu.hpp"
+#include "detail/menu.hpp"
 
 #include <iostream>
 
@@ -28,6 +28,7 @@ int menu ()
 	
 	return number;
 }
+
 
 
 
