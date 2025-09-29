@@ -1,5 +1,5 @@
 #include "Library.hpp"
-#include "menu.hpp"
+#include "detail/menu.hpp"
 
 #include <iostream>
 #include <string>
