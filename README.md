@@ -12,3 +12,5 @@ The project constitutes a small application for organization books in library.
 - Anytime the user can terminate the application from a appropriate choice of menu.
 
 ## Requirements
+C++11-compatible compiler
+CMake >= 3.10
