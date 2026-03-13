@@ -50,15 +50,11 @@ int main (int argc,char** argv)
 	    
 	    else if (i == 2) // search book
 	    {
-	    	cout << "Title:" << endl;
-	    	getline (cin,title);
+			cout << "ISBN:" << endl;
+	    	getline (cin,ISBN);
 	    	cout << endl;
-	    	
-	    	cout << "Name Writer:" << endl;
-	    	getline (cin,name_writer);
-	    	cout << endl;
-	    	
-	    	lb.search_book (title,name_writer);
+			
+	    	lb.search_book (ISBN);
 	    	cout << endl;
 		}
 		
