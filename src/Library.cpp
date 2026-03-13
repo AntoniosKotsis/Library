@@ -10,13 +10,13 @@ void Library :: addition_book (const Book& a)
 	bks.push_back (a);
 }
 
-void Library :: search_book (const string& title,const string& name_writer)
+void Library :: search_book (const string& ISBN)
 {
 	int exist = 0;
 	
 	for (const auto& h : bks)
 	{
-		if (   (title == h.title)  &&  (name_writer == h.name_writer)   ) 
+		if (ISBN == h.ISBN) 
 		{
 			exist = 1;
 			
