@@ -15,7 +15,7 @@ class Library
 		
 	public:
 		void addition_book (const Book&);
-		void search_book (const string&,const string&);
+		void search_book (const string&);
 		void delete_book (const string&);
 		void print_all_books () const;
 };
